@@ -1,17 +1,15 @@
-﻿抽象クラス
+﻿抽象クラス(abstract class)
 インスタンスを生成できず、継承して使うことを前提としているクラス
 public,protected等設定できる
 
-public abstract class クラス名
-protected abstract 関数（継承先のクラスに実装を強制させるC++で言うところの純粋仮想関数)
-public virtual　関数？
 
 関数におけるvirtualとabstractの違い
+public virtual　関数
+クラス内で関数の中身を実装する場合はvirtual
 
-
-
+public abstract class クラス名
+protected abstract 関数（継承先のクラスに実装を強制させるC++で言うところの純粋仮想関数)
 関数の内容は継承先で実装
-抽象クラス内でメソッドの実装も可能
 
 インターフェイス
 publicな抽象メソッドだけを持つクラスのようなもの
