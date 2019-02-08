@@ -1,0 +1,18 @@
+﻿シェーダーの中身解説
+
+Shader"Unlit~~"// 表示される名前
+
+properties	//マテリアルからいじれるようになる値
+
+Pass
+{
+	CGPROGRAM
+	#pragma vertex 関数名// 頂点シェーダーの関数宣言
+	#pragma fragment 関数名// フラグメントシェーダーの関数宣言
+
+
+	以降使い方は普通のスクリプトと大体同じ
+
+}
+ENDCG 
+
