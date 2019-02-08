@@ -1,0 +1,26 @@
+﻿自動実装プロパティの仕組み
+
+クラスの変数
+private string name;
+private int age;
+
+メソッドの作り方は2種類？
+public 型　名前{get; private set;}
+public 型　名前{get; set;}
+違い
+setをprivateにすることで読み取り専用プロパティになる
+
+呼び出し方で自動的にget,setが切り替わる？
+getは値そのものを渡す
+get
+var なんちゃら = プロパティを持っているクラス型.name;
+
+setには自動的にvalueという値が渡される（呼び出し側で入力した値？）
+set
+プロパティを持っているクラス型.name = "太郎";
+
+
+
+
+
+
